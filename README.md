@@ -1,6 +1,23 @@
-# AuthService - Spring Boot JWT Authentication:-
+🧾 Project Summary: 
+☑️AuthService – Spring Boot JWT Authentication Microservice
+⏩AuthService is a secure, production-ready microservice developed using Spring Boot that handles user authentication and authorization through JWT (JSON Web Tokens). The project is designed following best practices in API security and layered architecture, suitable for integration in large-scale microservice ecosystems.
 
-⏩This project is a microservice for handling user authentication using Spring Boot and JWT (JSON Web Tokens). It provides secure REST APIs for user registration and login, protected via Spring Security.
+✅It provides a seamless interface for:-
+⏩User registration with secure password encryption (BCrypt).
+⏩User login that generates a signed JWT token.
+⏩Token-based authentication for securing endpoints.
+⏩Role-based access control using Spring Security.
+⏩Centralized exception handling, reusable response models, and separation of concerns via DTO-Entity-Service-Controller layering.
+
+☑️The project is modular, easy to extend, and integrates cleanly with other microservices via REST APIs. It also includes a JWT validation filter that intercepts incoming requests, extracts tokens from headers, and validates them before granting access to protected resources.
+
+⚙️ Key Highlights:-
+🔐 JWT Authentication: Stateless, secure login using signed tokens.
+🧱 Layered Architecture: Clean separation between controller, service, and repository.
+🔄 Spring Security: Configurable role-based access with custom JWT filters.
+💡 BCrypt Password Encoding: Encrypts passwords before storage.
+⚙️ RESTful APIs: Well-structured endpoints for login, registration, and secured content.
+🚀 Ready for Integration: Can be used as a central authentication service in a microservices environment.
 
 📚 Topics:-
 ⏩Spring Boot.
