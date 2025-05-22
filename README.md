@@ -1,18 +1,18 @@
-# AuthService - Spring Boot JWT Authentication
+# AuthService - Spring Boot JWT Authentication:-
 
-This project is a microservice for handling user authentication using Spring Boot and JWT (JSON Web Tokens). It provides secure REST APIs for user registration and login, protected via Spring Security.
+⏩This project is a microservice for handling user authentication using Spring Boot and JWT (JSON Web Tokens). It provides secure REST APIs for user registration and login, protected via Spring Security.
 
 📚 Topics:-
-Spring Boot.
-JWT Token-based Authentication.
-Spring Security with Role-based Access Control.
-RESTful API Design.
-DTO and Entity separation.
-Authentication Manager with UsernamePasswordAuthenticationToken.
-Secure password hashing.
-Custom JWT filters and security configuration.
+⏩Spring Boot.
+⏩JWT Token-based Authentication.
+⏩Spring Security with Role-based Access Control.
+⏩RESTful API Design.
+⏩DTO and Entity separation.
+⏩Authentication Manager with UsernamePasswordAuthenticationToken.
+⏩Secure password hashing.
+⏩Custom JWT filters and security configuration.
 
-## 🔧 Tech Stack
+## 🔧 Tech Stack:-
 - Spring Boot
 - Spring Security
 - JWT
@@ -20,7 +20,7 @@ Custom JWT filters and security configuration.
 - Lombok
 - MySQL (or H2/in-memory)
 
-## ✨ Features
+## ✨ Features:-
 - User Registration & Login
 - Password Encryption with BCrypt
 - JWT Token Creation and Validation
@@ -28,7 +28,7 @@ Custom JWT filters and security configuration.
 - Secure API Endpoints
 - Layered Architecture (Controller, Service, Repository, DTO)
 
-## 📁 Project Structure
+## 📁 Project Structure:-
 com.authservice
 │
 ├── config # Spring Security and JWT configuration
@@ -39,7 +39,7 @@ com.authservice
 ├── service # Business logic services
 └── AuthserviceApplication # Main application class
 
-## 🧪 How to Run
+## 🧪 How to Run:-
 1. Clone the repo  
 2. Run with Maven:
 3. Use tools like Postman to test `/register` and `/login` APIs.
@@ -50,14 +50,14 @@ com.authservice
 | POST   | /login       | Authenticate and receive JWT |
 | GET    | /welcome     | Protected route (requires valid token) |
 ---
-## 📜 License
+## 📜 License:-
 MIT License
 
-📚 Key Classes
-File	Description
-AuthController.-------------> java	Handles login and registration
-JwtService.-----------------> java	Creates and validates JWT tokens
-JwtFilter.------------------> java	Checks token for secured endpoints
-AppSecurityConfig.java------>	Spring Security config
-User.java------------------->	JPA Entity
-UserDto, LoginDto.---------->	DTOs for safe data transfer
+📚 Key Classes:-
+✅File	Description
+⏩AuthController.-------------> java	Handles login and registration
+⏩JwtService.-----------------> java	Creates and validates JWT tokens
+⏩JwtFilter.------------------> java	Checks token for secured endpoints
+⏩AppSecurityConfig.java------>	Spring Security config
+⏩User.java------------------->	JPA Entity
+⏩UserDto, LoginDto.---------->	DTOs for safe data transfer
