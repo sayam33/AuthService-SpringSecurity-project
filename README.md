@@ -32,8 +32,7 @@
 - Spring Security
 - JWT
 - Maven
-- Lombok
-- MySQL (or H2/in-memory)
+- MySQL
 
 ## ✨ Features:-
 - User Registration & Login
